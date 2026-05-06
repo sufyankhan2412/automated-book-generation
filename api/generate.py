@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv(Path(__file__).parent.parent / '.env')
 
-def handler(request):
+def app(request):
     if request.method == 'POST':
         try:
             data = json.loads(request.body)
