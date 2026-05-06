@@ -10,10 +10,6 @@
     {
       "src": "/api/(.*)",
       "dest": "/api/generate.py"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/$1"
     }
   ]
 }
